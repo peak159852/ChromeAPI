@@ -1,0 +1,119 @@
+
+/* COMMON */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;  
+    word-break: break-all;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+}
+
+/* HEADER */
+
+.header-area {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.navbar-brand {
+    margin-left: 40px;
+    
+}
+.navbar-menu {
+
+    position: relative;
+    float: right;
+    margin-right: 40px;
+
+}
+
+
+/* BODY */
+
+.clock {
+    margin-top: 200px;
+    font-size: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.clock > .greetings {
+    font-size: 35px;
+    margin: 50px 0 ;
+}
+
+.clock > .form > input {
+    height: 50px;
+    width: 400px;;
+}
+
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+/* ALL BACKGROUND */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+.bgimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .3s linear;
+}
+
+/* TODO */
+
+.todo-area {
+    margin: 170px 250px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 25px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.todo-area > .js-toDoForm > input {
+    height: 30px;
+    width: 200px;
+}
+
+/* WEATHER */
+
+.weather-area {
+    margin: 170px 250px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.weather-area > .weather-header {
+    border: 1px solid white;
+    padding: 25px;
+}

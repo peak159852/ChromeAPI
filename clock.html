@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Girin's Clock</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/870a929a26.js"></script>
+
+</head>
+
+<body>
+
+    <header class="header-area" id="header">
+        <nav class="navbar">
+            <a class="navbar-brand" id="navbarBrand">Girin's Clock</a>
+            <div class="navbar-menu" id="menu">
+                <div>AVAILABLE ON</div>
+                <div class="nav-item"><i class="fab fa-chrome">Chrome</i></div>
+                <div class="nav-item"><i class="fab fa-firefox">Firefox</i></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="js-clock clock">
+        <span class="js-title title">00:00</span>
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?" />
+        </form>
+        <span class="js-greetings greetings"></span>
+    </div>
+    <script src='clock.js'></script>
+    <script src='greeting.js'></script>
+    <script src='bg.js'></script>
+</body>
+
+</html>
